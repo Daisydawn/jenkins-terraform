@@ -7,7 +7,7 @@ resource "aws_instance" "my_vm" {
  }
 }
 resource "aws_s3_bucket" "jenkinss3" {
-  bucket = "my-jenkinss3-bucket"
-
+  bucket = "my-jenkinsbuck"
+versioning = true
   tags = {
     Name        = "jenkinss3"
