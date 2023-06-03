@@ -11,3 +11,5 @@ resource "aws_s3_bucket" "my-jenkinsbuck" {
 versioning = true
   tags = {
     Name        = "jenkinss3"
+  }
+}
