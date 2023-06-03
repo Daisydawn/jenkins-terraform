@@ -6,7 +6,7 @@ resource "aws_instance" "my_vm" {
    Name = var.name_tag,
  }
 }
-resource "aws_s3_bucket" "jenkinss3" {
+resource "aws_s3_bucket" "my-jenkinsbuck" {
   bucket = "my-jenkinsbuck"
 versioning = true
   tags = {
